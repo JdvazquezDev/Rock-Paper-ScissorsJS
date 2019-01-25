@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1>Rock, Paper or Scissors</h1>
+    <h2>Can you win against computer?</h2>
+    <section id="game-zone">
+        <figure>
+            <img id="playerChoice" src="images/rock.png" alt="Player">
+            <figcaption>Player</figcaption>
+        </figure>
+        <figure>
+            <img id="computerChoice" src="images/rock.png" alt="Player">
+            <figcaption>Computer</figcaption>
+        </figure>
+    </section>
+    <p id='result'>You won playing <strong>Scissors</strong> against
+        <strong>Paper</strong></p>
+    <p id='score'>
+        You won <strong>3</strong> times. You lose <strong>4</strong> times.
+    </p>
+    <section>
+        <p>Pick one option:</p>
+        <button data-choice="rock">
+            <img src="images/rock.png" alt="Rock">
+        </button>
+        <button data-choice="paper">
+            <img src="images/paper.png" alt="Paper">
+        </button>
+        <button data-choice="scissors">
+            <img src="images/scissors.png" alt="Scissors">
+        </button>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
